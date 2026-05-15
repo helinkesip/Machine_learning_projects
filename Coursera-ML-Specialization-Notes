@@ -1,1 +1,14 @@
 
+# Bias ve Variance Tanılama (Diagnosis)
+
+Bu çalışma, Andrew Ng'nin Makine Öğrenmesi kursu kapsamında model performansını iyileştirme tekniklerini içermektedir.
+
+## Özet Tablo
+| Problem | Teşhis | Çözüm Yolu |
+| :--- | :--- | :--- |
+| **High Bias** | Underfitting (Eksik Öğrenme) | Daha fazla özellik (feature) ekle, $\lambda$ azalt. |
+| **High Variance** | Overfitting (Aşırı Öğrenme) | Daha fazla veri ekle, $\lambda$ artır. |
+
+## Önemli Notlar:
+- **Baseline (Referans) Performansı:** Hatanın yüksek olduğunu söyleyebilmek için insan performansı gibi bir referans noktası belirlenmelidir.
+- **Learning Curves:** Veri miktarını artırmak High Bias sorununu çözmez, ancak High Variance için etkilidir.
